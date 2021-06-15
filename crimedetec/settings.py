@@ -84,10 +84,10 @@ WSGI_APPLICATION = 'crimedetec.wsgi.application'
 
 DATABASES = {
     'default': {
-        'NAME': 'crime_identify',
+        'NAME': 'slahuden',
         'ENGINE': 'mysql.connector.django',
-        'USER': 'root',
-        'PASSWORD': 'moswa',
+        'USER': 'slahuden',
+        'PASSWORD': 'slahuden',
         'OPTIONS': {
           'autocommit': True,
         },
